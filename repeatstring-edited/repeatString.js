@@ -1,12 +1,11 @@
-const repeatString = function(letter, repitition) {
-    if (repitition < 0){
-        return ''
-        let str = ''
-        for(i=0; i<repitition; i++){
-            str += letter
-        }
-        return str
+const greeting = function(sayhello, repitition){
+    let word = "";
+    if(repitition<0){
+        return "";
     }
+    for (let i=0;i<repitition;i++){
+        word += sayhello;
+    }
+    //greeting("hello guys ", )    
 }
-
-module.exports = repeatString
+console.log("hello guys\n".repeat(3.5))
