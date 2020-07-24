@@ -1,4 +1,4 @@
-# Exercise XX - leapYears
+ Exercise XX - leapYears
 
 Create a function that determines whether or not a given year is a leap year. Leap years are determined by the following rules:
 
@@ -12,5 +12,5 @@ leapYears(1985) // is not a leap year: returns false
 ```
 
 
-## Hints
-- use an `if` statement and `&&` to make sure all the conditions are met properly
+# Instead of boolean true or false choices, I replaced them with:
+console.log("The year is leap / The year is not leap")print statements.
